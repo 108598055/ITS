@@ -1,0 +1,8 @@
+body {
+    background-image: url("/images/background7.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.another-background {
+    /*background-image: url(../images/background8.jpg);*/
+}
