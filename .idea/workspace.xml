@@ -16,12 +16,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -31,30 +35,33 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1Sxt5ZI9YzAnSSbg25pMFr2TmxY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/view/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/view" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF" />
-      <recent name="C:\Users\leo\IdeaProjects\ITS\web" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\js" />
       <recent name="C:\Users\leo\IdeaProjects\ITS\web\styles" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="contoller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leo\IdeaProjects\ITS\web\view\images" />
-      <recent name="C:\Users\leo\IdeaProjects\ITS\web" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\view" />
       <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF\lib" />
-      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\styles" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF\view" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\src\contoller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,11 +176,22 @@
       <workItem from="1572516894212" duration="2879000" />
       <workItem from="1574407173229" duration="28881000" />
       <workItem from="1575441570065" duration="1601000" />
-      <workItem from="1576379903137" duration="51374000" />
+      <workItem from="1576379903137" duration="64007000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

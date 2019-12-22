@@ -1,0 +1,80 @@
+/*新增專案div　style*/
+.project_new_div{
+    border: 3px solid #999999;
+    position: relative;
+    top: 20%;
+    height: auto;
+    width: auto;
+    background: #ffffff;
+    margin:0px auto;
+    display: none;
+    z-index: 999;
+}
+
+.new_project_botton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.end_project_div{
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#3a8a9e;
+    font-family:Arial;
+    font-size:16px;
+    padding:12px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+
+.end_project_div:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;
+}
+
+.btndiv{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+.inputcss{
+    margin-top: 50px;
+    padding:10px;
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+
+.selectcss{
+    margin-top: 50px;
+    color: #fff;
+    background-color: #779126;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 8px 60px;
+}
+
+.password_div{
+    border: 3px solid #999999;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    height: 40%;
+    width: 35%;
+    background: #ffffff;
+    /*margin:0px auto;*/
+    display: none;
+    z-index: 999;
+}
+.pwdinputcss{
+    margin-top: 10px;
+    padding:10px;
+    border:none;
+    border-bottom:1px solid #ccc;
+}

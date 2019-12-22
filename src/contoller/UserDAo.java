@@ -45,6 +45,54 @@ public class UserDAo {
         return u;
     }
 
+    public int login_user(String username, String password) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        int id = 0;
+        try {
+            connection = JdbcUtils.getconn();
+            String sql = "select * from its_db.user;";
+            preparedStatement = (PreparedStatement)connection.prepareStatement(sql);
+            resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()){
+                if(username.equals(resultSet.getString(2)) && password.equals(resultSet.getString(3))) {
+                    id = resultSet.getInt(1);
+                }
+            }
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        } finally{
+            JdbcUtils.close(preparedStatement,connection);
+        }
+        return id;
+    }
+
+    public String login_user_role(String username, String password) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        String id = "";
+        try {
+            connection = JdbcUtils.getconn();
+            String sql = "select * from its_db.user;";
+            preparedStatement = (PreparedStatement)connection.prepareStatement(sql);
+            resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()){
+                if(username.equals(resultSet.getString(2)) && password.equals(resultSet.getString(3))) {
+                    id = resultSet.getString(4);
+                }
+            }
+        }
+        catch (SQLException e) {
+            e.printStackTrace();
+        } finally{
+            JdbcUtils.close(preparedStatement,connection);
+        }
+        return id;
+    }
+
     //此方法實現註冊功能，向資料庫中寫入新使用者的資訊
     public void addUser(User user){
         Connection connection = null;

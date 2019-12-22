@@ -13,7 +13,9 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);
+        HttpSession session = request.getSession();
+        session.invalidate();
+        request.getRequestDispatcher("/view/login.jsp").forward(request, response);
     }
 
     @Override
@@ -25,15 +27,18 @@ public class LoginServlet extends HttpServlet {
         UserDAo userDAo = new UserDAo();
         User user = userDAo.login(username,password);
         if(user != null){
+            int id = userDAo.login_user(username, password);
+            String role = userDAo.login_user_role(username, password);
             HttpSession session = request.getSession();
-            session.setAttribute("session", request.getParameter("username"));
-            System.out.println(request.getParameter("username"));
-            request.setAttribute("username", request.getParameter("username"));
-
-            request.getRequestDispatcher("/WEB-INF/view/success.jsp").forward(request,response);
+            session.setAttribute("username",username);
+            session.setAttribute("user_pass", password);
+            session.setAttribute("userid", id);
+            session.setAttribute("user_role", role);
+//            request.getRequestDispatcher("/view/call.jsp").forward(request,response);
+            response.sendRedirect("/call");
         }
         else {
-            request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);
+            request.getRequestDispatcher("/view/login.jsp").forward(request, response);
         }
     }
 }
