@@ -1,6 +1,6 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.PreparedStatement" %>
-<%@ page import="contoller.JdbcUtils" %>
+<%@ page import="controller.JdbcUtils" %>
 <%@ page import="java.sql.SQLException" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.*"%>
@@ -122,17 +122,17 @@
                 nodes: [
                     {
                         text: '主畫面',
-                        href:"test_link.jsp",
+                        href:"/view/main.jsp",
                         tags: ['0']
                     },
                     {
                         text: '議題',
-                        href: 'https://csie.ntut.edu.tw/csie/Chinese/index.html',
+                        href: '/view/issue.jsp',
                         tags: ['0']
                     },
                     {
                         text: '報表',
-                        href: 'https://netflow.ntut.edu.tw/home/flow/checkout',
+                        href: '/view/report.jsp',
                         tags: ['0']
                     }]
             });

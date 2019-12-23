@@ -63,11 +63,11 @@
 .password_div{
     border: 3px solid #999999;
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 0%;
-    height: 40%;
-    width: 35%;
-    background: #ffffff;
+    height: 25%;
+    width: 25%;
+    background: #bce8f1;
     /*margin:0px auto;*/
     display: none;
     z-index: 999;

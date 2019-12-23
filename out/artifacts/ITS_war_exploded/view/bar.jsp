@@ -36,7 +36,7 @@
                         <li><a href="/register" target="_top">註冊</a></li>
                     </c:when>
                     <c:otherwise>
-                        <li><a href="/call" target="_top">${username} 您好</a></li>
+                        <li><a href="/call" target="_top">${username}的專案</a></li>
                         <li><a href="" onclick="show('pass')">更改密碼</a></li>
                         <li><a href="/login" target="_top">登出</a></li>
                     </c:otherwise>

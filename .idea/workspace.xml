@@ -16,11 +16,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/view" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/dog/ITS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -176,7 +176,7 @@
       <workItem from="1572516894212" duration="2879000" />
       <workItem from="1574407173229" duration="28881000" />
       <workItem from="1575441570065" duration="1601000" />
-      <workItem from="1576379903137" duration="64007000" />
+      <workItem from="1576379903137" duration="76849000" />
     </task>
     <servers />
   </component>
