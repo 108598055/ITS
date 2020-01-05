@@ -20,11 +20,18 @@
 <body >
 <h1>
     <div style="font-family:DFKai-sb;font-size:100px;vertical-align:center;text-align:center;margin-top: 400px">
-        <%if(session.getAttribute("projectname")!=null) { %>
-        專案<%out.print(session.getAttribute("projectname"));}
-        else {%>
-        看左邊啦!!!
-        <%} %>
+        <%
+            if(session.getAttribute("projectname")!=null) {
+
+
+
+            out.print(session.getAttribute("projectname"));}
+            else {
+        %>
+        <div STYLE="margin-top: -350px;"><img src="/images/bg2.png"></div>
+        <%
+            }
+        %>
         <%--        <input type="button" value="test" onclick="alert('test!!')">--%>
     </div>
 </h1>

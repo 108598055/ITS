@@ -9,11 +9,12 @@ public class IssueDisplay {
     Connection connection = null;
     Statement statement = null;
     ResultSet resultSet = null;
+    PreparedStatement preparedStatement = null;
+    String sql;
     public IssueDisplay(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://140.124.181.19:3306/its_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC", "root", "root");
-            statement = connection.createStatement();
         }
         catch (Exception ex) {
             System.out.println("Error: " + ex);
@@ -23,7 +24,12 @@ public class IssueDisplay {
     public ArrayList<Issue> toDoIssue(){
         ArrayList<Issue> result = new ArrayList();
         try {
-            resultSet = statement.executeQuery("select * from its_db.issue");
+            GetParameter getParameter = new GetParameter();
+            connection = JdbcUtils.getconn();
+            sql = "select * from its_db.issue where projectID = ?";
+            preparedStatement = (PreparedStatement)connection.prepareStatement(sql);
+            preparedStatement.setInt(1,getParameter.pjid);
+            resultSet = preparedStatement.executeQuery();
             while(resultSet.next()) {
                 if(resultSet.getString("state").equals("TO DO")) {
                     Issue issue = new Issue();
@@ -45,7 +51,12 @@ public class IssueDisplay {
     public ArrayList<Issue> doingIssue(){
         ArrayList<Issue> result = new ArrayList();
         try {
-            resultSet = statement.executeQuery("select * from its_db.issue");
+            GetParameter getParameter = new GetParameter();
+            connection = JdbcUtils.getconn();
+            sql = "select * from its_db.issue where projectID = ?";
+            preparedStatement = (PreparedStatement)connection.prepareStatement(sql);
+            preparedStatement.setInt(1,getParameter.pjid);
+            resultSet = preparedStatement.executeQuery();
             while(resultSet.next()) {
                 if(resultSet.getString("state").equals("DOING")) {
                     Issue issue = new Issue();
@@ -68,7 +79,12 @@ public class IssueDisplay {
     public ArrayList<Issue> doneIssue(){
         ArrayList<Issue> result = new ArrayList();
         try {
-            resultSet = statement.executeQuery("select * from its_db.issue");
+            GetParameter getParameter = new GetParameter();
+            connection = JdbcUtils.getconn();
+            sql = "select * from its_db.issue where projectID = ?";
+            preparedStatement = (PreparedStatement)connection.prepareStatement(sql);
+            preparedStatement.setInt(1,getParameter.pjid);
+            resultSet = preparedStatement.executeQuery();
             while(resultSet.next()) {
                 if(resultSet.getString("state").equals("DONE")) {
                     Issue issue = new Issue();

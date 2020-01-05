@@ -33,10 +33,15 @@
                 <c:choose>
                     <c:when test="${empty username}">
                         <li><a href="/login" target="_top">登入</a></li>
-                        <li><a href="/register" target="_top">註冊</a></li>
+<%--                        <li><a href="/register" target="_top">註冊</a></li>--%>
                     </c:when>
                     <c:otherwise>
                         <li><a href="/call" target="_top">${username}的專案</a></li>
+                        <%
+                            if(session.getAttribute("user_role").toString().equals("Admin")) {
+                        %>
+                        <li><a href="/register" target="_top">註冊</a> </li>
+                        <%}%>
                         <li><a href="" onclick="show('pass')">更改密碼</a></li>
                         <li><a href="/login" target="_top">登出</a></li>
                     </c:otherwise>

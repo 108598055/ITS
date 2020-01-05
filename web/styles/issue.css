@@ -1,0 +1,60 @@
+        .issuecontent{
+            border: 3px solid aquamarine;
+            position: absolute;
+            top: 30%;
+            height: auto;
+            width: auto;
+            display: none;
+            z-index: 999;
+            background: bisque;
+            margin-left: 40%;
+        }
+        .btnnewdiv{
+            box-shadow: 3px 4px 0px 0px #899599;
+            background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+            background-color:#ededed;
+            border-radius:15px;
+            border:1px solid #d6bcd6;
+            display:inline-block;
+            cursor:pointer;
+            color:#3a8a9e;
+            font-family:Arial;
+            font-size:16px;
+            padding:12px 15px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #e1e2ed;
+        }
+        .btnnewdiv:hover {
+            background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+            background-color:#bab1ba;
+        }
+        .btncandiv{
+            box-shadow: 3px 4px 0px 0px #899599;
+            background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+            background-color:#ededed;
+            border-radius:15px;
+            border:1px solid #d6bcd6;
+            display:inline-block;
+            cursor:pointer;
+            color:#3a8a9e;
+            font-family:Arial;
+            font-size:16px;
+            padding:4px 8px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #e1e2ed;
+        }
+        .btncandiv:hover {
+            background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+            background-color:#bab1ba;
+        }
+
+
+        .selectcss{
+            margin-top: 10px;
+            color: #fff;
+            background-color: #779126;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            padding: 8px 60px;
+        }

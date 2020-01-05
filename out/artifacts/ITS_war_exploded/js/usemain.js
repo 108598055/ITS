@@ -29,11 +29,10 @@ function alertpjname(obja) {
     else if((node_id % 4)==3){
         node_id = node_id-2;
     }
-    else if((node_id % 4)==4){
+    else if((node_id % 4)==0){
         node_id = node_id-3;
     }
     var pjname = $("li[data-nodeid="+node_id+"]").children("a").text();
-
     var temp = document.createElement("form");
     temp.action = '/pjnameget';//提交的地址
     temp.method = "post";//也可指定为get

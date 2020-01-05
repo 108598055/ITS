@@ -17,6 +17,9 @@
     <%--    <title>Title</title>--%>
     <link href="/styles/usemain.css" rel="stylesheet">
     <script src="/js/usemain.js"></script>
+    <script src="https://jonmiles.github.io/bootstrap-treeview/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/js/bootstrap-treeview.js"></script>
+
 </head>
 <body>
 <%--彈跳視窗新增專案--%>

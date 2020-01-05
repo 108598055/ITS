@@ -6,14 +6,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.lang.*;
 
 @WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
-//    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        request.getRequestDispatcher("/WEB-INF/view/register.jsp").forward(request, response);
-//    }
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.getRequestDispatcher("/view/register.jsp").forward(request, response);
     }
@@ -33,7 +30,11 @@ public class RegisterServlet extends HttpServlet {
         UserDAo userDAo = new UserDAo();
         userDAo.addUser(user);
         System.out.println("註冊成功");
+        PrintWriter out = response.getWriter();
 //        request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request,response);
-        response.sendRedirect("/login");
+        out.print("<meta http-equiv='refresh' content='2;url=/register' /><body >\n" +
+                        "<div style=\"font-size:2em; font-family:DFKai-sb;\" >註冊成功</div>\n" +
+                        "</body>");
+//        response.sendRedirect("/register");
     }
 }

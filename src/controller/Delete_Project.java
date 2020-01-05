@@ -22,8 +22,7 @@ public class Delete_Project extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         String projectName = request.getParameter("project_name");
-//        System.out.println(person);
-//        if(!projectName.equals("") && !person.equals("")) {
+
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {

@@ -3,8 +3,8 @@
     border: 3px solid #999999;
     position: relative;
     top: 20%;
-    height: auto;
-    width: auto;
+    height: 40%;
+    width:40%;
     background: #ffffff;
     margin:0px auto;
     display: none;
@@ -63,11 +63,11 @@
 .password_div{
     border: 3px solid #999999;
     position: absolute;
-    top: 5%;
+    top: 10%;
     right: 0%;
-    height: 25%;
+    height: 30%;
     width: 25%;
-    background: #bce8f1;
+    background: #ffffff;
     /*margin:0px auto;*/
     display: none;
     z-index: 999;
