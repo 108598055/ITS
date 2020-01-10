@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ITS:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81ec8112-6f61-4c32-8152-1b80ccfecee1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/ITS_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/mysql_connector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/mysql_connector_java_5_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/mysql_connector_java_5_1_25_bin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/mysql_connector_java_8_0_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/META-INF/ITS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/a.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/Delete_Issue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/Delete_Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/Delete_Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/GetParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/Issue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/IssueDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/MainDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/NewIssue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/New_Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/New_project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/Password.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/ReplyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/classes/controller/UserDAo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/font/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/background99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/images/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/js/bootstrap-treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/js/issuejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/js/usemain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/styles/issue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/styles/loginStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/styles/mainStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/styles/registerStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/styles/successStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/styles/usemain.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/ITSframe.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/bar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/call.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/defeat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/delete_project.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/issue.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/report.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/test_link.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/tree.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/ITS_war_exploded/view/tree_view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/META-INF/ITS.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/a.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/Delete_Issue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/Delete_Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/Delete_Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/GetParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/Issue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/IssueDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/MainDisplay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/NewIssue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/New_Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/New_project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/Password.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/ReplyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ITS/controller/UserDAo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/a.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/Delete_Issue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/Delete_Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/Delete_Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/GetParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/Issue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/IssueDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/JdbcUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/MainDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/NewIssue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/New_Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/New_project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/Password.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/RegisterServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/ReplyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/UserDAo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/font/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/background99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/images/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/js/bootstrap-treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/js/issuejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/js/usemain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/styles/issue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/styles/loginStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/styles/mainStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/styles/registerStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/styles/successStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/styles/usemain.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/ITSframe.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/bar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/call.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/defeat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/delete_project.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/issue.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/report.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/test_link.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/tree.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/view/tree_view.jsp" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Sxt5ZI9YzAnSSbg25pMFr2TmxY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\view" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF\lib" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\styles" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF\view" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\src\contoller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="contoller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\js" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\styles" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web" />
+      <recent name="C:\Users\leo\IdeaProjects\ITS\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.45">
+    <configuration name="login.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/WEB-INF/view/login.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/home" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ITS:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ITS_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57423" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ITS:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.login.jsp" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.45" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.login.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81ec8112-6f61-4c32-8152-1b80ccfecee1" name="Default Changelist" comment="" />
+      <created>1572516891139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572516891139</updated>
+      <workItem from="1572516894212" duration="2879000" />
+      <workItem from="1574407173229" duration="28881000" />
+      <workItem from="1575441570065" duration="1601000" />
+      <workItem from="1576379903137" duration="76849000" />
+      <workItem from="1577106867260" duration="82695000" />
+      <workItem from="1578236400885" duration="1357000" />
+      <workItem from="1578635701627" duration="1810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="163" key="#Template_Data_Languages" timestamp="1577192905357">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="163" key="#Template_Data_Languages/0.0.1680.1010@0.0.1680.1010" timestamp="1577192905357" />
+    <state x="233" y="0" key="#Tomcat_Server" timestamp="1577109023370">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1577109023370" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577111166089">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1577111166089" />
+    <state x="233" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1577109136292">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1577109136292" />
+    <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1577109735729">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1577109735729" />
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901863" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901862" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901862" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901863" />
+    <state width="1493" height="188" key="GridCell.Tab.1.bottom" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901864" />
+    <state width="1493" height="188" key="GridCell.Tab.1.center" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901864" />
+    <state width="1493" height="188" key="GridCell.Tab.1.left" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901864" />
+    <state width="1493" height="188" key="GridCell.Tab.1.right" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901864" />
+    <state width="1493" height="188" key="GridCell.Tab.2.bottom" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901864" />
+    <state width="1493" height="188" key="GridCell.Tab.2.center" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901863" />
+    <state width="1493" height="188" key="GridCell.Tab.2.left" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901863" />
+    <state width="1493" height="188" key="GridCell.Tab.2.right" timestamp="1577222576519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1577109258167" />
+    <state width="1493" height="188" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577222576519" />
+    <state width="1637" height="191" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1577191901863" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1577108281167">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1577108281167" />
+  </component>
+</project>
