@@ -46,6 +46,14 @@ https://www.jetbrains.com/idea/
 
 在IntelliJ IDEA裡開啟project,並在configuration選擇project設定檔
 
-預設管理員帳號：admin
+預設系統管理者帳號：admin
 
-預設管理員密碼：admin
+預設系統管理者密碼：admin
+
+預設專案管理者帳號：108598055
+
+預設專案管理者密碼：108598055
+
+預設一般成員帳號：108598072
+
+預設一般成員密碼：108598072
